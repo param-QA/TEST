@@ -10,7 +10,7 @@
     <metadata>svg-metadata-test</metadata>
 
     <desc>svg-desc-test</desc>
-
+    
     <image
         href="https://example.com/test.png"
         width="1"
@@ -19,7 +19,9 @@
     <a href="https://example.com">
         <text x="0" y="0">x</text>
     </a>
-
+    <a href="https://example.com" target="_top">
+    <text x="0" y="0">redirect-test</text>
+    </a>
     <foreignObject width="1" height="1">
         <body xmlns="http://www.w3.org/1999/xhtml">
             <p>x</p>
