@@ -9,8 +9,9 @@
 
     <metadata>svg-metadata-test</metadata>
 
-    <desc>svg-desc-test</desc>
-    <use href="https:%2f%2fexample.com/test.svg#x"/>
+    <use href="&#x2f;&#x2f;example.com/test.svg#x"/>
+    <use href="%252f%252fexample.com/test.svg#x"/>
+    <use href="data:image/svg+xml;base64,PHN2Zy8+#x"/>
     <image
         href="https://example.com/test.png"
         width="1"
